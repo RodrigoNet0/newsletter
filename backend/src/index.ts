@@ -22,3 +22,4 @@ setupDatabase().then(() => {
         console.log(`Servidor rodando em http://localhost:${PORT}`);
     });
 });
+
