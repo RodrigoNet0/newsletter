@@ -35,6 +35,7 @@ setEmail("")
 setAgree(false);
 
     alert("Obrigado por se inscrever");
+    console.log(handleSubmit);
 };
 
 
