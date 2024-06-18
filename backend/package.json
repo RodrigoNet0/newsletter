@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
-    "dev": "ts-node-dev --respawn src/index.ts"
+    "dev": "node --experimental-specifier-resolution=node --loader ts-node/esm ./src/index.ts"
   },
   "dependencies": {
     "body-parser": "^1.20.2",
